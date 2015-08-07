@@ -1,0 +1,3 @@
+def double(x):
+  log(x)
+  return(x * 2)
