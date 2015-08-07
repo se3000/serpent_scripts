@@ -9,5 +9,5 @@ c.register('steve', public_key0)
 c.register('steve', public_key1)
 
 print(str(c.ask('steve')))
-print(str(c.ask(public_key0)))
-print(str(c.ask(public_key1)))
+print(str(public_key0))
+print(str(public_key0 == c.ask('steve')))
